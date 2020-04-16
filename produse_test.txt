@@ -1,0 +1,2 @@
+1 rr rr 0
+2 rr rrr 1
