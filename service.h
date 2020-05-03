@@ -11,6 +11,8 @@ template<class T,class R> class Service {
 private:
 	R rep;
 public:
+	Service();
+	Service(const char*);
 	void loadService(const char*);
 	~Service();
 	//adauga un element

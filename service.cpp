@@ -1,6 +1,14 @@
 #include "service.h"
 
 
+template <class T, class R> Service<T, R>::Service() {
+	
+}
+
+
+template <class T, class R> Service<T, R>::Service(const char* fis) {
+	rep.loadFromFile(fis);
+}
 
 template <class T, class R> void Service<T, R>::loadService(const char* fis) {
 	rep.loadFromFile(fis);
